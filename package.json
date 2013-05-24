@@ -1,0 +1,35 @@
+{
+  "name": "SSCRG-attack-visualizer",
+  "version": "0.0.1",
+  "description": "Uses D3 to visualize a network attack from a JSON data file.",
+  "author": "Jordan Hanna",
+  "contributers": [
+    {
+      "name": "Shane Kwon",
+      "email": "shanekw@uw.edu",
+      "name": "Andrew Sorenson",
+      "email": "andrewx@uw.edu"
+    }
+  ],
+  "main": "app.js",
+  "dependencies": {
+    "express": "3.x",
+    "neo4j": "0.2.x",
+    "d3": "0.3.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "D3",
+    "Neo4j",
+    "Nodejs",
+    "Network"
+  ],
+
+  "license": "BSD"
+}
